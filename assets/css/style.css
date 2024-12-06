@@ -522,6 +522,10 @@ section.homebanner .banner-wrapper.banner-wrapper3 .absolute-center1
   max-width: 516px;
   margin:auto;
 }
+section.homebanner.homebanner4 .banner-wrapper .absolute-center1
+{
+  top:50%;
+}
 
 /*services-section*/
 
