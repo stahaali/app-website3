@@ -52,6 +52,14 @@ section
 {
   margin-bottom: 100px;
 }
+.mt-50
+{
+  margin-top: 100px;
+}
+.pt-50
+{
+  padding-top: 90px;
+}
 
 /* width */
 ::-webkit-scrollbar 
@@ -507,6 +515,12 @@ section.homebanner .banner-wrapper .banner-content p
 section.homebanner .banner-wrapper.banner-wrapper3 .absolute-center1
 {
   top: 50%;
+}
+.right-image .mobile1
+{
+  display: block;
+  max-width: 516px;
+  margin:auto;
 }
 
 /*services-section*/
@@ -2091,7 +2105,7 @@ section.black-section
 section.black-section .title
 {
   color:#fff;
-  margin-bottom:40px;
+  margin-bottom: 29px;
 }
 section.black-section .border-button a
 {
@@ -2461,6 +2475,12 @@ section.whychoosetailored-section .service-row p
 .whychoosetailored-section .service-row .border-button a
 {
   background: #ee0400;
+}
+.mobile2img
+{
+  display: block;
+  max-width: 400px;
+  margin:auto;
 }
 
 /*comprehensiveai-solution*/
@@ -3984,4 +4004,79 @@ section.toolbox-crm .service-row p
 {
   background:#fae3e9;
   border-bottom: 7px solid #e77993;
+}
+
+/*crossplatform-appdevelopment*/
+
+section.crossplatform-appdevelopment
+{
+  position: relative;
+  overflow: hidden;
+}
+section.crossplatform-appdevelopment .container
+{
+  position: relative;
+}
+.position-relative
+{
+  position: relative;
+}
+.line1
+{
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.crossplatform-column
+{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background:#14161d;
+  border-radius: 10px;
+  border:1px solid #ee0400;
+  padding:20px 20px;
+  z-index: 1;
+}
+.crossplatform-column h3
+{
+  font-family: "WF Visual Sans";
+  color:#fff;
+}
+.crossplatform-column p
+{
+  font-family: "BlinkMacSystemFont";
+  color:#fff;
+  margin-top: 12px;
+}
+.lines1
+{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    left: 0;
+    bottom: -80px;
+    width: 100%;
+    height: 385px;
+}
+.lines1 span
+{
+    height: 100%;
+    width: 1px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(120, 120, 120, 1));
+}
+.ccolumn .number
+{
+  font-size: 60px;
+  font-family: "WF Visual Sans";
+  font-weight: 700;
+  color:#ee0400;
+}
+.ccolumn p
+{
+  font-family: "BlinkMacSystemFont";
+  color: #000;
+  font-weight: 500;
+  margin-bottom: 0px;
 }
