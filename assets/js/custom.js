@@ -83,7 +83,6 @@ $('.black-slider').slick({
   $('.awards-slider').slick({
     slidesToShow: 4,
     autoplay: true,
-    autoplaySpeed: 0,   
     autoplaySpeed: 6000,       
     speed: 2000,               
     arrows: false,
