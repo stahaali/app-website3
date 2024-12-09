@@ -233,6 +233,52 @@ $('.speriorcontentmanagement-slider').slick({
   ]
 });
 
+$('.ecslider').slick({
+  slidesToShow: 3,
+  margin:25,
+  autoplay: true,
+  autoplaySpeed: 0,   
+  autoplaySpeed: 6000,       
+  speed: 2000,               
+  arrows: false,
+  dots: false,         
+  draggable: true,
+  swipeToSlide: true,
+  touchThreshold: 10,      
+  responsive: [
+      {
+        breakpoint: 0,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 4,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+      },
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 5,
+          slidesToScroll: 5
+        }
+      }
+  ]
+});
+
 $('.dropdown-menu1').click(function()
 {
   $('.dropdown-menu1').toggleClass('active');

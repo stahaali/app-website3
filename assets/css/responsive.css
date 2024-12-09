@@ -1906,4 +1906,12 @@
     {
         margin:20px 0 20px;
     }
+    .generativeai-column:before
+    {
+        display: none;
+    }
+    section.generativeai-future .gap2 
+    {
+        display: none;
+    }
 }
