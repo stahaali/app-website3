@@ -1,3 +1,5 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+
 @font-face {
   font-family: "WF Visual Sans";
   src: url("../fonts/WFVisualSansVF/WFVisualSansVF.ttf") format("truetype");
@@ -4342,4 +4344,31 @@ section.ourclient-section
   width: 100%;
   text-transform: capitalize;
   font-family: "BlinkMacSystemFont";
+}
+.list3 ul
+{
+  
+padding: 0px;
+}
+.list3 ul li
+{
+  position: relative;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+  font-family: "BlinkMacSystemFont";
+  font-size: 20px;
+}
+.list3 ul li:before
+{
+  content: '\f00c';
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900;
+  color: #d70401;
+  position: absolute;
+  left: 0px;
+  top: 3px;
+  font-size: 18px;
+  font-weight: 700;
 }
