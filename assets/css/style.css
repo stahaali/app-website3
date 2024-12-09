@@ -33,7 +33,7 @@ h1
 }
 section
 {
-  padding: 90px 0;
+  padding: 70px 0;
 }
 .p10
 {
@@ -278,7 +278,13 @@ a.logo {
 
 section.homebanner {
   position: relative;
-  height: 845px;
+  height: 800px;
+  padding-bottom: 0px;
+  margin-top: 18px;
+}
+section.homebanner4
+{
+  margin-top: 22px;
 }
 .absolute-center 
 {
@@ -875,9 +881,6 @@ section.lightgray-section
 {
   position: relative;
   background:#f2f2f2;
-  padding-bottom: 84px;
-  padding-top: 113px;
-  margin-top: 18px;
 }
 section.lightgray-section.lightgray-section2
 {
@@ -2757,7 +2760,7 @@ section.contactus-section .contact-content p
   text-transform: capitalize;
   font-weight: 700;
 }
-.contact-form .form2 form input
+.contact-form .form3 form input
 {
   border-color: #cccccc;
   border-radius:100px;
@@ -2767,13 +2770,13 @@ section.contactus-section .contact-content p
   color:#646464;
   padding: 10px 17px;
 }
-.contact-form .form2 form input:focus
+.contact-form .form3 form input:focus
 {
   border-color: #cccccc;
   box-shadow: none;
   outline: none;
 }
-.contact-form .form2 form select
+.contact-form .form3 form select
 {
   border-color: #cccccc;
   border-radius:100px;
@@ -2783,19 +2786,19 @@ section.contactus-section .contact-content p
   color:#646464;
   padding: 10px 17px;
 }
-.contact-form .form2 form select option
+.contact-form .form3 form select option
 {
   font-family: "BlinkMacSystemFont";
   text-transform: capitalize;
   color:#646464;
 }
-.contact-form .form2 form select:focus
+.contact-form .form3 form select:focus
 {
   border-color: #cccccc;
   box-shadow: none;
   outline: none;
 }
-.contact-form .form2 form textarea
+.contact-form .form3 form textarea
 {
   border-color: #cccccc;
   margin-bottom: 20px;
@@ -2804,19 +2807,19 @@ section.contactus-section .contact-content p
   color:#646464;
   padding: 10px 17px;
 }
-.contact-form .form2 form textarea:focus
+.contact-form .form3 form textarea:focus
 {
   border-color: #cccccc;
   box-shadow: none;
   outline: none;
 }
-.contact-form .form2 form ::placeholder
+.contact-form .form3 form ::placeholder
 {
   text-transform: capitalize;
   font-family: "BlinkMacSystemFont";
   color:#646464;
 }
-.contact-form .form2 form .submit
+.contact-form .form3 form .submit
 {
   position: relative;
   background: #ee0400;
@@ -2824,7 +2827,7 @@ section.contactus-section .contact-content p
   width: 300px;
   z-index: 1;
 }
-.contact-form .form2 form .submit:before
+.contact-form .form3 form .submit:before
 {
   content: "";
   position: absolute;
