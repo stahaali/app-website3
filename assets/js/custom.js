@@ -2,6 +2,12 @@ $('.toggle').click(function() {
   $('.collapse-menu').toggleClass('show');
 });
 
+$('.toggle2').click(function() 
+{
+  $('.collapse-menu').toggleClass('show');
+});
+
+
   $(document).ready(function() {
     $('.scroller-item').hide().first().show();
 
@@ -225,4 +231,14 @@ $('.speriorcontentmanagement-slider').slick({
         }
       }
   ]
+});
+
+$('.dropdown-menu1').click(function()
+{
+  $('.dropdown-menu1').toggleClass('active');
+});
+
+$('.dropdown-menu2').click(function()
+{
+  $('.dropdown-menu2').toggleClass('active');
 });

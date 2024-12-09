@@ -420,16 +420,7 @@
     .desktop-menu ul li a:hover:before
     {
         opacity: 0;
-    }
-    .desktop-menu ul li .getstarted:before
-    {
-        width: 136px;
-        height: 35px;
-    }
-    .desktop-menu ul li .getstarted a
-    {
-        font-size: 16px;
-    }
+    }    
     .desktop-menu nav .collapse-menu
     {
         display: block;
@@ -447,6 +438,9 @@
     .desktop-menu ul li .getstarted 
     {
         margin-top: 20px;
+    }
+    .getstarted {
+        margin-top: 9px;
     }
     section.homebanner
     {
@@ -1012,11 +1006,82 @@
 {
     .toggle
     {
+        display: none;
+    }
+    .toggle2
+    {
         display: block;
+    }
+    .toggle2 i
+    {
+        font-size: 30px;
     }
     .toggle i
     {
         font-size: 25px;
+    }
+    .mobile-menu
+    {
+        display: block;   
+    }
+    .mobile-menu nav
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .mobile-menu nav ul
+    {
+        padding:0px;
+    }
+    .mobile-menu nav ul li
+    {
+        list-style: none;
+    }
+    .mobile-menu nav ul li a
+    {
+        text-decoration: none;
+        text-transform: capitalize;
+        color:#000;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .mobile-menu nav .collapse-menu
+    {
+        transition:height 0.3s;
+        overflow: hidden;
+        height:0px;        
+    }
+    .mobile-menu nav .collapse-menu.show
+    {
+        height:200px;
+    }
+    .mobile-menu ul li a.getstarted
+    {
+        background: #ab0300;
+        color: #fff;
+        border-radius: 100px;
+        padding: 6px 19px;
+        width: fit-content;
+        font-size: 14px;
+    }
+    .mobile-menu ul li a.getstarted:before
+    {
+        content: "";
+        position: absolute;
+        left: 3px;
+        top: 0px;
+        width: 100%;
+        height: 44px;
+        border-radius: 100px;
+        border: 1px solid #ee0400;
+        display: none;
+    }
+    .desktop-menu
+    {
+        display: none;
     }
     .desktop-menu ul
     {
@@ -1066,17 +1131,78 @@
     {
         margin-top: 20px;
     }
+    .mobile-menu ul li a
+    {
+        font-size: 18px;
+    }
+    .mobile-menu ul li.dropdown-menu2
+    {
+        position: initial;
+        margin-bottom: 5px;
+        display: block;
+        width: 100%;
+    }
+    .mobile-menu ul li.dropdown-menu2 .mega-menu
+    {
+      height: 0;
+      transition: 0.3s ease;
+    }
+    .mobile-menu ul li.dropdown-menu2.active .mega-menu2
+    {
+      height:600px;
+      overflow-y: scroll;
+    }
+    .mega-menu2
+    {
+        transition: height 0.3s;
+        overflow: hidden;
+        background: #fff;
+        height: 0;
+    }
+    .desktop-menu ul li.dropdown-menu2.active .mega-menu2
+    {   
+        height:500px;
+        overflow-y: scroll;
+    }
+    .mega-menu2 .submenu-list ul li a
+    {
+        color:#000;
+    }
+    .mobile-menu ul li.dropdown-menu2
+    {
+        display: block;
+        width: 100%;
+    }
+    .mobile-menu ul li.dropdown-menu2.active .angledown
+    {
+        display: none;
+    }
+    .mobile-menu ul li.dropdown-menu2 .angledown
+    {
+        display: block;
+    }
+    .mobile-menu ul li.dropdown-menu2.active .angleup
+    {
+        display: block;
+    }
+    .mobile-menu ul li.dropdown-menu2 .angleup
+    {
+        display: none;
+    }
     section.homebanner
     {
-        height:610px;
+        height: 428px;
+        padding: 0px;
     }
     .absolute-center
     {
         top: 53%;
     }
-    .banner-wrapper
+    section.homebanner .banner-wrapper
     {
         height:450px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
     }
     .banner-content
     {
@@ -1184,6 +1310,7 @@
     .services-section
     {
         padding-bottom: 40px;
+        margin-top: 120px;
     }
     .service-column
     {
