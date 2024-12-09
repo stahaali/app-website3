@@ -149,7 +149,7 @@ a.logo {
   padding: 10px 0;
   text-decoration: none;
   color: #000;
-  font-size: 26px;
+  font-size: 20px;
   text-transform: capitalize;
   font-family: "BlinkMacSystemFont";
   font-weight: 400;
@@ -308,6 +308,11 @@ section.homebanner.homebanner5 .banner-wrapper
   background:url('../images/banner/laptop2.png') no-repeat;
   background-size: cover;
 }
+section.homebanner.homebanner8 .banner-wrapper
+{
+  background:url('../images/banner/laptop2.png') no-repeat;
+  background-size: cover;
+}
 section.homebanner.homebanner3 .banner-wrapper:before
 {
   content:'';
@@ -410,10 +415,39 @@ section.homebanner .banner-wrapper .banner-content p
   display: block;
   margin: 0 auto;
 }
+.right-image .mobileimg8
+{
+  max-width: 400px;
+  display: block;
+  margin: 0 auto;
+}
 section.homebanner.homebanner6 .banner-wrapper
 {
   background:url('../images/homebanner/banner6.png') no-repeat;
   background-size: cover;
+}
+section.homebanner.homebanner7 .banner-wrapper
+{
+  background:url('../images/banner/laptop2.png') no-repeat;
+  background-size: cover;
+}
+section.homebanner.homebanner7 .banner-wrapper .absolute-center1
+{
+  top:50%;
+}
+section.homebanner.homebanner8 .banner-wrapper .absolute-center1
+{
+  top:50%;
+}
+section.homebanner.homebanner7 .banner-wrapper:before
+{
+  content:'';
+  position: absolute;
+  left:0;
+  top:0;
+  width: 100%;
+  height:100%;
+  background: rgba(0,0,0,0.2);
 }
 section.homebanner.homebanner6 .banner-wrapper:before
 {
@@ -428,6 +462,12 @@ section.homebanner.homebanner6 .banner-wrapper:before
 .mobileimg6
 {
   max-width: 460px;
+  display: block;
+  margin: 0 auto;
+}
+.mobileimg7
+{
+  max-width: 350px;
   display: block;
   margin: 0 auto;
 }
@@ -635,7 +675,7 @@ section.homebanner.homebanner6 .banner-wrapper:before
   border-radius: 50%;
   background: rgba(0, 0, 0, 0.8);
   box-shadow: 0 0 0 270px rgba(0, 0, 0, 0.8);
-  filter: blur(200px);
+  filter: blur(109px);
 }
 .right-image3
 {
@@ -674,7 +714,7 @@ section.homebanner.homebanner4 .banner-wrapper .absolute-center1
 }
 .title
 {
-  font-size: 60px;
+  font-size: 50px;
   font-family: "WF Visual Sans";
   font-weight: 700;
   text-transform: capitalize;
@@ -2619,6 +2659,13 @@ section.whychoosetailored-section .service-row p
   margin:auto;
 }
 
+.mobile4img
+{
+  display: block;
+  max-width: 400px;
+  margin:auto;
+}
+
 /*comprehensiveai-solution*/
 
 section.comprehensiveai-solution
@@ -4477,4 +4524,20 @@ section.generativeai-future .gap2 .col-lg-3:nth-child(1) h3
 section.generativeai-future .gap2 .col-lg-3:last-child .generativeai-column:before
 {
   display: none;
+}
+.hireandroid-obile
+{
+  display: block;
+  margin:auto;
+  max-width: 400px;
+}
+.hireios-mobile
+{
+  display: block;
+  margin:auto;
+  max-width: 500px;
+}
+.white-section
+{
+  background: #fff !important;
 }
