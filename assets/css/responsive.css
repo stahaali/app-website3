@@ -1914,4 +1914,20 @@
     {
         display: none;
     }
+    .m20
+    {
+        margin-top:20px;
+    }
+    .gap-up20 
+    {
+        margin-top: 0px;
+    }
+    .gap-up21
+    {
+        margin-top: 0px;
+    }
+    .gap-up22
+    {
+        margin-left: 0px;
+    }
 }
