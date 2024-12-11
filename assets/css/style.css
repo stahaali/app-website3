@@ -237,14 +237,30 @@ a.logo {
 {
   position: absolute;
   left: 50%;
-  top: 200px;
-  width: 70%;
-  height: 240px;
+  top: 354px;
+  width: 100%;
+  height: 551px;
   transform: translate(-50%, -50%);
   background: #fff;
   padding: 27px 0px 0 20px;
-  border-top: 3px solid #e9e9e9;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
   display: none;
+}
+.megamenu-details img
+{
+  max-width: 300px;
+  display: block;
+  margin-top: 30px;
+}
+.megamenu-details h3
+{
+  font-family: "BlinkMacSystemFont";
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.megamenu-details p
+{
+  font-family: "BlinkMacSystemFont";
 }
 .desktop-menu ul li.dropdown-menu1.active .mega-menu
 {
@@ -254,18 +270,37 @@ a.logo {
 {
   height: auto;
 }
+.submenu-list h3
+{
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
 .submenu-list ul
 {
   padding:0px;
 }
 .submenu-list ul li
 {
+  position: relative;
   display: block;
   width: 100%;
   margin-bottom: 7px;
+  padding-left:21px;
 }
-.submenu-list ul li  a
+.submenu-list ul li:before
 {
+  content:'\f061';
+  font-family: FontAwesome;
+  position: absolute;
+  left: 0;
+  top:0;
+  color:#848484;
+}
+.submenu-list ul li a
+{
+  position: relative;
   font-size: 16px;
   padding: 0px;
   font-family: "BlinkMacSystemFont";
@@ -449,6 +484,18 @@ section.homebanner .banner-wrapper .banner-content p
   display: block;
   margin: 0 auto;
 }
+.right-image .mobileimg11
+{
+  max-width: 400px;
+  display: block;
+  margin: 0 auto;
+}
+.right-image .mobileimg12
+{
+  max-width: 400px;
+  display: block;
+  margin: 0 auto;
+}
 .right-image .mobileimg9
 {
   position: absolute;
@@ -468,6 +515,15 @@ section.homebanner.homebanner7 .banner-wrapper
 {
   background:url('../images/banner/laptop2.png') no-repeat;
   background-size: cover;
+}
+section.homebanner.homebanner11 .banner-wrapper
+{
+  background:url('../images/homebanner/banner8.png') no-repeat;
+  background-size: cover;
+}
+section.homebanner.homebanner11 .banner-wrapper .absolute-center1
+{
+  top:50%;
 }
 section.homebanner.homebanner7 .banner-wrapper .absolute-center1
 {
@@ -521,6 +577,16 @@ section.homebanner.homebanner10 .banner-wrapper:before
   width: 100%;
   height:100%;
   background: rgba(0,0,0,0.5);
+}
+section.homebanner.homebanner11 .banner-wrapper:before
+{
+  content:'';
+  position: absolute;
+  left:0;
+  top:0;
+  width: 100%;
+  height:100%;
+  background: rgba(0,0,0,0.7);
 }
 section.homebanner.homebanner10 .banner-wrapper .banner-glow1
 {
@@ -733,12 +799,12 @@ section.homebanner.homebanner10 .banner-wrapper .banner-glow15
   position: absolute;
   top: 0;
   left: 0;
-  width: 40px;
-  height: 600px;
+  width: 20px;
+  height: 100%;
   border-radius: 50%;
-  background: rgba(0, 0, 0, 0.8);
-  box-shadow: 0 0 0 71px rgba(0, 0, 0, 0.8);
-  filter: blur(200px);
+  background: rgba(0, 0, 0, 0.9);
+  box-shadow: 0 0 0 71px rgba(0, 0, 0, 0.9);
+  filter: blur(21px);
 }
 section.homebanner.homebanner9 .banner-wrapper .banner-glow1 
 {
@@ -772,9 +838,9 @@ section.homebanner.homebanner9 .banner-wrapper .banner-glow15
   width: 40px;
   height: 100%;
   border-radius: 50%;
-  background: rgba(0, 0, 0, 0.8);
-  box-shadow: 0 0 0 308px rgba(0, 0, 0, 0.8);
-  filter: blur(200px);
+  background: rgba(0, 0, 0, 0.9);
+  box-shadow: 0 0 0 71px rgba(0, 0, 0, 0.9);
+  filter: blur(30px);
 }
 .banner-glow15
 {
@@ -782,11 +848,11 @@ section.homebanner.homebanner9 .banner-wrapper .banner-glow15
   top: 0;
   left: 0;
   width: 100%;
-  height: 100px;
+  height: 27px;
   border-radius: 50%;
-  background: rgba(0, 0, 0, 0.8);
-  box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.8);
-  filter: blur(300px);
+  background: rgba(0, 0, 0, 0.9);
+  box-shadow: 0 0 0 85px rgba(0, 0, 0, 0.9);
+  filter: blur(30px);
 }
 .banner-glow2
 {
@@ -4393,6 +4459,7 @@ section.crossplatform-appdevelopment .container
   color: #000;
   font-weight: 500;
   margin-bottom: 0px;
+  text-transform: capitalize;
 }
 section.crossplatform-appdevelopment.crossplatform-appdevelopment2 .lines1
 {
@@ -4664,7 +4731,7 @@ section.generativeai-future .gap2 .col-lg-3:last-child .generativeai-column:befo
 {
   display: block;
   margin:auto;
-  max-width: 400px;
+  max-width: 300px;
 }
 .hireios-mobile
 {
@@ -4675,4 +4742,8 @@ section.generativeai-future .gap2 .col-lg-3:last-child .generativeai-column:befo
 .white-section
 {
   background: #fff !important;
+}
+.seperator-line
+{
+  border-top:2px solid #e9e9e9;
 }
