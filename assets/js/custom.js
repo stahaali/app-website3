@@ -288,3 +288,45 @@ $('.dropdown-menu2').click(function()
 {
   $('.dropdown-menu2').toggleClass('active');
 });
+
+
+// circluar progress bar
+
+$('#circle-a').circleProgress({
+  startAngle: -1.55,
+  size: 200,
+  value: 0.75, 
+  fill: {
+      color: '#ee0400'
+  },
+  emptyFill: '#ffffff',
+  lineCap: 'round'
+}).on('circle-animation-progress', function (event, progress, stepValue) {
+  $(this).find('strong').text(Math.round(stepValue * 100) + '%');
+});
+
+$('#circle-b').circleProgress({
+  startAngle: -1.55,
+  size: 200,
+  value: 0.19, 
+  fill: {
+      color: '#ee0400'
+  },
+  emptyFill: '#ffffff',
+  lineCap: 'round'
+}).on('circle-animation-progress', function (event, progress, stepValue) {
+  $(this).find('strong').text(Math.round(stepValue * 100) + '%');
+});
+
+$('#circle-c').circleProgress({
+  startAngle: -1.55,
+  size: 200,
+  value: 0.68, 
+  fill: {
+      color: '#ee0400'
+  },
+  emptyFill: '#ffffff',
+  lineCap: 'round'
+}).on('circle-animation-progress', function (event, progress, stepValue) {
+  $(this).find('strong').text(Math.round(stepValue * 100) + '%');
+});
