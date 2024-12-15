@@ -352,33 +352,33 @@ section.homebanner.homebanner2 .banner-wrapper
 }
 section.homebanner.homebanner3 .banner-wrapper
 {
-  background:url('../images/banner/laptop2.png') no-repeat;
+  background:url('../images/banner/laptop2.webp') no-repeat;
   background-size: cover;
 }
 section.homebanner.homebanner5 .banner-wrapper
 {
-  background:url('../images/banner/laptop2.png') no-repeat;
+  background:url('../images/banner/laptop2.webp') no-repeat;
   background-size: cover;
 }
 section.homebanner.homebanner22 .banner-wrapper
 {
-  background:url('../images/homebanner/banner10.png') no-repeat;
+  background:url('../images/homebanner/banner10.webp') no-repeat;
   background-size: cover;
 }
 section.homebanner.homebanner8 .banner-wrapper
 {
-  background:url('../images/banner/laptop2.png') no-repeat;
+  background:url('../images/banner/laptop2.webp') no-repeat;
   background-size: cover;
 }
 section.homebanner.homebanner9 .banner-wrapper
 {
-  background:url('../images/banner/banner3.png') no-repeat;
+  background:url('../images/banner/banner3.webp') no-repeat;
   background-size: cover;
   background-position: top;
 }
 section.homebanner.homebanner24 .banner-wrapper
 {
-  background:url('../images/homebanner/banner11.png') no-repeat;
+  background:url('../images/homebanner/banner11.webp') no-repeat;
   background-size: cover;
   background-position: top;
 }
@@ -404,7 +404,7 @@ section.homebanner.homebanner22 .banner-wrapper:before
 }
 /* section.homebanner.homebanner3 .banner-wrapper
 {
-  background:url('../images/banner/laptop2.png') no-repeat;
+  background:url('../images/banner/laptop2.webp') no-repeat;
   background-size: cover;
 } */
 section.homebanner .banner-wrapper 
@@ -414,7 +414,7 @@ section.homebanner .banner-wrapper
   border-top-right-radius: 100px;
   height: 660px;
   width: 100%;
-  background:url('../images/homebanner/banner.png') no-repeat;
+  background:url('../images/homebanner/banner.webp') no-repeat;
   background-size: cover;
   background-position: right;
   overflow: hidden;
@@ -574,22 +574,22 @@ section.homebanner .banner-wrapper .banner-content p
 }
 section.homebanner.homebanner6 .banner-wrapper
 {
-  background:url('../images/homebanner/banner6.png') no-repeat;
+  background:url('../images/homebanner/banner6.webp') no-repeat;
   background-size: cover;
 }
 section.homebanner.homebanner7 .banner-wrapper
 {
-  background:url('../images/banner/laptop2.png') no-repeat;
+  background:url('../images/banner/laptop2.webp') no-repeat;
   background-size: cover;
 }
 section.homebanner.homebanner11 .banner-wrapper
 {
-  background:url('../images/homebanner/banner8.png') no-repeat;
+  background:url('../images/homebanner/banner8.webp') no-repeat;
   background-size: cover;
 }
 section.homebanner.homebanner12 .banner-wrapper
 {
-  background:url('../images/homebanner/banner9.png') no-repeat;
+  background:url('../images/homebanner/banner9.webp') no-repeat;
   background-size: cover;
 }
 section.homebanner.homebanner11 .banner-wrapper .absolute-center1
@@ -636,7 +636,7 @@ section.homebanner.homebanner6 .banner-wrapper:before
 }
 section.homebanner.homebanner10 .banner-wrapper
 {
-  background:url('../images/homebanner/banner7.png') no-repeat;
+  background:url('../images/homebanner/banner7.webp') no-repeat;
   background-size: cover;
 }
 section.homebanner.homebanner10 .banner-wrapper:before
@@ -3905,7 +3905,7 @@ section.blockchain-services:before
   width: 136px;
   height: 75%;
   transform: translate(-50%,-50%);
-  background: url('../images/blockchain-services/1.png') no-repeat;
+  background: url('../images/blockchain-services/1.webp') no-repeat;
   background-size: cover;
 }
 .seccolumn1
@@ -4981,7 +4981,7 @@ section.webportalandwebsites-section
   width: 130px;
   height: 102px;
   background: url(
-  '../images/webportal/2.png') no-repeat;
+  '../images/webportal/2.webp') no-repeat;
   background-size: contain;
 }
 .website-heading:after
@@ -4994,7 +4994,7 @@ section.webportalandwebsites-section
   width:100px;
   height: 105px;
   background:url(
-  '../images/webportal/1.png') no-repeat;
+  '../images/webportal/1.webp') no-repeat;
   background-size: contain;
 }
 .mlist1

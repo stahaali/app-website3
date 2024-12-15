@@ -178,6 +178,10 @@
     {
         right: -56px;
     }
+    .submenu-list h3
+    {
+        font-size: 15px;
+    }
 }
 @media(max-width:1024px)
 {
