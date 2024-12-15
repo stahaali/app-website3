@@ -55,7 +55,7 @@
     }
     .title
     {
-        font-size: 50px;
+        font-size: 46px;
     }
     .sub-heading
     {
@@ -215,6 +215,18 @@
     .requestService-section .border-button 
     {
         margin-right: 13px;
+    }
+    .tech-name p
+    {
+        font-size: 18px;
+    }
+    .tech-logo img
+    {
+        max-width: 36px;
+    }
+    section.blackbanner-section .black-slider .item h5 
+    {
+        font-size: 53px;
     }
 }
 @media(max-width:1024px)
