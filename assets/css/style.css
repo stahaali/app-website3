@@ -804,7 +804,7 @@ section.homebanner.homebanner10 .banner-wrapper .banner-glow15
   justify-content: space-between;
   align-items: center;
   padding: 0px 9px 3px;
-  height: 76px;
+  height: 60px;
 }
 .submit
 {
@@ -814,10 +814,10 @@ section.homebanner.homebanner10 .banner-wrapper .banner-glow15
   font-size: 21px;
   border: 0px;
   border-radius: 100px;
-  width: 50%;
-  height: 44px;
+  width: 34%;
+  height: 38px;
   text-transform: capitalize;
-  font-size: 20px;
+  font-size: 18px;
 }
 .submit::before
 {
@@ -826,7 +826,7 @@ section.homebanner.homebanner10 .banner-wrapper .banner-glow15
   left: 0;
   top: 0;
   width: 100%;
-  height: 49px;
+  height: 42px;
   border-radius: 100px;
   border: 1px solid #fff;
   z-index: -1;
@@ -2931,6 +2931,18 @@ section.comprehensiveai-solution
 {
   position: relative;
 }
+section.comprehensiveai-solution .glow12
+{
+  position: absolute;
+  top: 20%;
+  left: 0;
+  width: 20px;
+  height: 252px;
+  border-radius: 50%;
+  background: rgba(238, 4, 0, 0.8);
+  box-shadow: 0 0 0 18px rgba(254, 0, 0, 0.8);
+  filter: blur(46px);
+}
 section.comprehensiveai-solution .service-row p
 {
   color:#000;
@@ -3189,6 +3201,29 @@ section.aisolution-development
 {
   position: relative;
 }
+section.aisolution-development .glow12 
+{
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 20px;
+    height: 300px;
+    border-radius: 50%;
+    background: rgba(238, 4, 0, 0.8);
+    box-shadow: 0 0 0 30px rgba(254, 0, 0, 0.8);
+    filter: blur(46px);
+}
+section.aisolution-development .glow11 
+{
+  position: absolute;
+  top: 33%;
+  right: 0;
+  width: 20px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 30px rgba(254, 0, 0, 0.8);
+  filter: blur(46px);
+}
 .black-section
 {
   background:#000;
@@ -3303,6 +3338,17 @@ section.aisolution-development .service-row p
 section.companyleverage
 {
   position: relative;
+}
+section.companyleverage .glow11 
+{
+  position: absolute;
+  top: 33%;
+  right: 0;
+  width: 20px;
+  height: 209px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 25px rgba(254, 0, 0, 0.8);
+  filter: blur(46px);
 }
 section.companyleverage .service-row p
 {
