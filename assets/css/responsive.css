@@ -187,6 +187,10 @@
         top: 83px;
         height: 500px;
     }
+    .right-image .mobileimg22
+    {
+        max-width: 100%;
+    }
 }
 @media(max-width:1024px)
 {
