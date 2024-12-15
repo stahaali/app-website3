@@ -27,6 +27,14 @@
     {
         height: 609px;
     }
+    .website-heading:before
+    {
+        width: calc(100% + 624px);
+    }
+    .webportal-heading:before
+    {
+        width: calc(100% + 556px);
+    }
 }
 @media(max-width:1400px)
 {
@@ -190,6 +198,23 @@
     .right-image .mobileimg22
     {
         max-width: 100%;
+    }
+    .website-heading:before
+    {
+        width: calc(100% + 557px);
+    }
+    .webportal-heading:after
+    {
+        left: -44px;
+        top: -1px;
+    }
+    .generativeai-column h3
+    {
+        font-size: 40px;
+    }
+    .requestService-section .border-button 
+    {
+        margin-right: 13px;
     }
 }
 @media(max-width:1024px)
