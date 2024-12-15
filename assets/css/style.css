@@ -2097,7 +2097,7 @@ section.cta-section .glow7
   height: 300px;
   border-radius: 50%;
   background: rgba(238, 4, 0, 0.8);
-  box-shadow: 0 0 0 11px rgba(294, 0, 0, 0.8);
+  box-shadow: 0 0 0 25px rgba(294, 0, 0, 0.8);
   filter: blur(70px);
 }
 section.cta-section .glow8
@@ -2109,7 +2109,7 @@ section.cta-section .glow8
   height: 300px;
   border-radius: 50%;
   background: rgba(238, 4, 0, 0.8);
-  box-shadow: 0 0 0 11px rgba(294, 0, 0, 0.8);
+  box-shadow: 0 0 0 25px rgba(294, 0, 0, 0.8);
   filter: blur(70px);
   transform: scale(-1);
 }
@@ -2316,6 +2316,7 @@ section.blog-section.pt20
 section.blog-section .glow3
 {
   top: 25%;
+  box-shadow: 0 0 0 20px rgba(294, 0, 0, 0.8);
 }
 
 /*mobileservice-section*/
@@ -2672,6 +2673,18 @@ section.white-section .image img
 section.faq-section
 {
   position: relative;
+}
+section.faq-section .glow12
+{
+  position: absolute;
+  top: 20%;
+  left: 0;
+  width: 20px;
+  height: 252px;
+  border-radius: 50%;
+  background: rgba(238, 4, 0, 0.8);
+  box-shadow: 0 0 0 18px rgba(254, 0, 0, 0.8);
+  filter: blur(46px);
 }
 section.faq-section .accordion-item
 {
