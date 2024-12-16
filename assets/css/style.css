@@ -1680,8 +1680,6 @@ section.processdevelopment-section .section-row .casestudy-button i
 {
   position: relative;
   padding: 0 0 0 30px;
-  height: 550px;
-  overflow-y: scroll;
   direction: rtl;
 }
 .right-sticky
