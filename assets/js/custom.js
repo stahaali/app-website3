@@ -27,24 +27,8 @@ $('.toggle2').click(function()
             console.log($(window).scrollTop(), scrollTop, windowHeight, sectionTop, sectionBottom, scrollTop - sectionTop);
 
             section.find('.progress-line').height(scrollTop - sectionTop - 10);
-
-            if (scrollTop + windowHeight > sectionTop && scrollTop < sectionBottom) {
-                section.find('.scroller-content').each(function(index) {
-                    var $this = $(this);
-                    var contentTop = $this.offset().top;
-                    var contentBottom = contentTop + $this.outerHeight();
-
-                    if (scrollTop + windowHeight > contentTop && scrollTop < contentBottom) {
-                        showImage(index);
-                    }
-                });
-            }
         });
      }
-
-    function showImage(index) {
-        $('.scroller-item').hide().eq(index).show();
-    }
 });
 
 // slick slider black banner

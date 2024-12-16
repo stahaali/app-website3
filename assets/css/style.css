@@ -372,7 +372,7 @@ section.homebanner.homebanner8 .banner-wrapper
 }
 section.homebanner.homebanner9 .banner-wrapper
 {
-  background:url('../images/banner/banner3.webp') no-repeat;
+  background:url('../images/banner/laptop2.webp') no-repeat;
   background-size: cover;
   background-position: top;
 }
@@ -494,11 +494,21 @@ section.homebanner .banner-wrapper .banner-content p
   max-width: 583px;
   z-index: 2;
 }
+.right-image .mobileimg13
+{
+  position: absolute;
+  right: -25px;
+  top: 10px;
+  width: 100%;
+  height: 560px;
+  max-width: 583px;
+  z-index: 2;
+}
 .right-image .mobileimg2
 {
   position: absolute;
   right: 0;
-  top: -35px;
+  top: -87px;
   width: 100%;
   height: 600px;
   max-width: 583px;
@@ -590,6 +600,11 @@ section.homebanner.homebanner11 .banner-wrapper
 section.homebanner.homebanner12 .banner-wrapper
 {
   background:url('../images/homebanner/banner9.webp') no-repeat;
+  background-size: cover;
+}
+section.homebanner.homebanner10 .banner-wrapper
+{
+  background:url('../images/homebanner/banner10.webp') no-repeat;
   background-size: cover;
 }
 section.homebanner.homebanner11 .banner-wrapper .absolute-center1
@@ -1596,6 +1611,7 @@ section.processdevelopment-section
   background: #000;
   margin-top: 103px;
   padding-bottom: 100px;
+  overflow: hidden;
 }
 section.processdevelopment-section .section-row h2.title
 {
@@ -1636,6 +1652,26 @@ section.processdevelopment-section .section-row .casestudy-button i
   color: #fff;
   font-size: 22px;
 }
+
+/* For WebKit browsers */
+.scroller-list::-webkit-scrollbar {
+  width: 4px;
+}
+
+.scroller-list::-webkit-scrollbar-track 
+{
+  background-color: #666;
+}
+.scroller-list::-webkit-scrollbar-thumb 
+{
+  background-color: #fff;
+  border-radius: 3px;
+}
+
+.scroller-list > * 
+{
+  direction: ltr; 
+}
 .pb-36 
 {
   padding-bottom: 9rem;
@@ -1644,54 +1680,22 @@ section.processdevelopment-section .section-row .casestudy-button i
 {
   position: relative;
   padding: 0 0 0 30px;
+  height: 550px;
+  overflow-y: scroll;
+  direction: rtl;
 }
-.progress-bar
+.right-sticky
 {
-  position: absolute;
-  left:0;
-  top:0;
-  width:3px;
-  height:100%;
-  background:#666666;
-  justify-content: flex-start;
-}
-.progress-line
-{
-  margin: 0;
-  padding: 0;
-  background-color: #fff;
-  height: 20rem;
-  transition: height 0.3s ease-out;
+  position: sticky;
+  top: 0;
 }
 .scroller-item
 {
-  position: sticky;
-  top: 0;
-  z-index: 10;
   width: 370px;
   height: 500px;
   border-radius: 200px;
-  object-fit: cover;
-  overflow: hidden;
-  display: block;
+  overflow:hidden;
   margin: auto;
-  z-index: 1;
-}
-.scroller-item img
-{
-  position: relative;
-  top:0;
-  width: 370px;
-  height: 500px;
-  border-radius: 200px;
-  object-fit: cover;
-  z-index: 10;
-}
-.position-sticky
-{
-  position: sticky;
-  top: 0;
-  height: 31.2rem;
 }
 .glow13
 {
@@ -1705,6 +1709,7 @@ section.processdevelopment-section .section-row .casestudy-button i
   background: rgba(270, 4, 0, 0.8);
   box-shadow: 0 0 0 100px rgba(464, 0, 0, 0.8);
   filter: blur(190px);
+  z-index: -1;
 }
 .position-relative
 {
