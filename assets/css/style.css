@@ -382,6 +382,21 @@ section.homebanner.homebanner24 .banner-wrapper
   background-size: cover;
   background-position: top;
 }
+section.homebanner.homebanner25 .banner-wrapper
+{
+  background:url('../images/banner/laptop2.webp') no-repeat;
+  background-size: cover;
+}
+section.homebanner.homebanner25 .banner-wrapper:before
+{
+  content:'';
+  position: absolute;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,0.5);
+}
 section.homebanner.homebanner3 .banner-wrapper:before
 {
   content:'';
