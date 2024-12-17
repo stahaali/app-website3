@@ -553,7 +553,7 @@ section.homebanner .banner-wrapper .banner-content p
 }
 .right-image .mobileimg8
 {
-  max-width: 400px;
+  max-width: 300px;
   display: block;
   margin: 0 auto;
 }
@@ -631,6 +631,10 @@ section.homebanner.homebanner7 .banner-wrapper .absolute-center1
   top:50%;
 }
 section.homebanner.homebanner8 .banner-wrapper .absolute-center1
+{
+  top:50%;
+}
+section.homebanner.homebanner25 .banner-wrapper .absolute-center1
 {
   top:50%;
 }
