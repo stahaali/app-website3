@@ -387,6 +387,11 @@ section.homebanner.homebanner25 .banner-wrapper
   background:url('../images/banner/laptop2.webp') no-repeat;
   background-size: cover;
 }
+section.homebanner.homebanner26 .banner-wrapper
+{
+  background:url('../images/homebanner/banner12.webp') no-repeat;
+  background-size: cover;
+}
 section.homebanner.homebanner25 .banner-wrapper:before
 {
   content:'';
