@@ -8,27 +8,43 @@ $('.toggle2').click(function()
 });
 
 
-  $(document).ready(function() {
-    $('.scroller-item').hide().first().show();
+$(document).ready(function() {
+  $('.scroller-item').hide().first().show();
 
-    var section = $('.processdevelopment-section');
+  var section = $('.processdevelopment-section');
 
-    // Check if the section exists
+  // Check if the section exists
 
-    if (section.length > 0) 
+  if (section.length > 0) 
+    {
+      $(window).on('scroll', function() 
       {
-        $(window).on('scroll', function() 
-        {
-            var scrollTop = $(window).scrollTop();
-            var windowHeight = $(window).height();
-            var sectionTop = section.offset().top;
-            var sectionBottom = sectionTop + section.outerHeight();
+          var scrollTop = $(window).scrollTop();
+          var windowHeight = $(window).height();
+          var sectionTop = section.offset().top;
+          var sectionBottom = sectionTop + section.outerHeight();
 
-            console.log($(window).scrollTop(), scrollTop, windowHeight, sectionTop, sectionBottom, scrollTop - sectionTop);
+          console.log($(window).scrollTop(), scrollTop, windowHeight, sectionTop, sectionBottom, scrollTop - sectionTop);
 
-            section.find('.progress-line').height(scrollTop - sectionTop - 10);
-        });
-     }
+          section.find('.progress-line').height(scrollTop - sectionTop - 10);
+
+          if (scrollTop + windowHeight > sectionTop && scrollTop < sectionBottom) {
+              section.find('.scroller-content').each(function(index) {
+                  var $this = $(this);
+                  var contentTop = $this.offset().top;
+                  var contentBottom = contentTop + $this.outerHeight();
+
+                  if (scrollTop + windowHeight > contentTop && scrollTop < contentBottom) {
+                      showImage(index);
+                  }
+              });
+          }
+      });
+   }
+
+  function showImage(index) {
+      $('.scroller-item').hide().eq(index).show();
+  }
 });
 
 // slick slider black banner
@@ -274,43 +290,4 @@ $('.dropdown-menu2').click(function()
 });
 
 
-// circluar progress bar
 
-$('#circle-a').circleProgress({
-  startAngle: -1.55,
-  size: 200,
-  value: 0.75, 
-  fill: {
-      color: '#ee0400'
-  },
-  emptyFill: '#ffffff',
-  lineCap: 'round'
-}).on('circle-animation-progress', function (event, progress, stepValue) {
-  $(this).find('strong').text(Math.round(stepValue * 100) + '%');
-});
-
-$('#circle-b').circleProgress({
-  startAngle: -1.55,
-  size: 200,
-  value: 0.19, 
-  fill: {
-      color: '#ee0400'
-  },
-  emptyFill: '#ffffff',
-  lineCap: 'round'
-}).on('circle-animation-progress', function (event, progress, stepValue) {
-  $(this).find('strong').text(Math.round(stepValue * 100) + '%');
-});
-
-$('#circle-c').circleProgress({
-  startAngle: -1.55,
-  size: 200,
-  value: 0.68, 
-  fill: {
-      color: '#ee0400'
-  },
-  emptyFill: '#ffffff',
-  lineCap: 'round'
-}).on('circle-animation-progress', function (event, progress, stepValue) {
-  $(this).find('strong').text(Math.round(stepValue * 100) + '%');
-});
