@@ -1154,6 +1154,10 @@
     {
         padding: 55px 14px 0;
     }
+    .right-image .mobile1
+    {
+        max-width: 100%;
+    }
 }
 @media(max-width:576px)
 {
