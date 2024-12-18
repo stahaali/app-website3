@@ -1174,6 +1174,10 @@
     {
         font-size: 20px;
     }
+    .right-image .mobileimg5
+    {
+        max-width: 100%;
+    }
 }
 @media(max-width:576px)
 {
