@@ -2184,4 +2184,8 @@
     {
         border-right: none;
     }
+    .technology2-column:after
+    {
+        border-top: none;
+    }
 }
