@@ -776,6 +776,7 @@ section.homebanner.homebanner10 .banner-wrapper .banner-glow15
 }
 .right-image .laptop-image2
 {
+  width: 100%;
   display: block;
   max-width: 500px;
   margin: auto;
@@ -2948,7 +2949,9 @@ section.aiapplicationdevelopment-section
 .aiapplicationdevelopment-img img
 {
   width: 100%;
-  max-width: 600px;
+  max-width: 400px;
+  margin: auto;
+  display: block;
 }
 section.aiapplicationdevelopment-section .service-row
 {

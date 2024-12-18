@@ -1241,18 +1241,22 @@
     }
     section.homebanner
     {
-        height: 428px;
+        height: 900px;
         padding: 0px;
     }
-    .absolute-center
+    .absolute-center 
     {
-        top: 53%;
+        top: 42%;
     }
     section.homebanner .banner-wrapper
     {
-        height:450px;
+        height:780px;
         border-top-left-radius: 0;
         border-top-right-radius: 0;
+    }
+    .right-image .laptop-image2
+    {
+        margin: 40px auto 0;
     }
     .banner-content
     {
@@ -1266,7 +1270,7 @@
     {
         top:53%;
         left: 47%;
-    }
+    }    
     .submit
     {
         font-size: 15px;
