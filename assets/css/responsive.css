@@ -2200,4 +2200,7 @@
     {
         border-top: none;
     }
+    .lightaccordion {
+        margin-top: 48px;
+    }
 }
