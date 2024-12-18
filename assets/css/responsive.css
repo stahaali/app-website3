@@ -1209,6 +1209,11 @@
         width: 80%;
         max-width: 100%;
     }
+    .hireios-mobile
+    {
+        width: 100%;
+        max-width: 100%;
+    }
 }
 @media(max-width:576px)
 {
