@@ -3126,8 +3126,8 @@ section.contactus-section .contact-content p
   flex-direction: column;
   height:100%;
   background:#ee0400;
-  padding: 25px 40px;
-  BORDER-RADIUS: 6PX;
+  padding: 25px 12px;
+  border-radius: 6px;
 }
 .contact-details P
 {
@@ -3194,7 +3194,7 @@ section.contactus-section .contact-content p
 .contact-form
 {
   background:#fff;
-  padding: 45px 39px;
+  padding: 45px 12px;
   border-radius: 6px;
 }
 .contact-form .contact-content h3

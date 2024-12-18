@@ -2010,4 +2010,12 @@
         max-width: 220px;
         margin: 0 auto 20px;
     }
+    .contact-form
+    {
+        padding: 45px 12px;
+    }
+    .contact-details
+    {
+        padding: 25px 12px;
+    }
 }
