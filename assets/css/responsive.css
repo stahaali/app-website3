@@ -1137,6 +1137,10 @@
     {
         border-right: none;
     }
+    .cms-column:after
+    {
+        border-top:none;
+    }
 }
 @media(max-width:576px)
 {
