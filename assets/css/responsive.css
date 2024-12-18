@@ -499,6 +499,10 @@
     {
         top:0px;
     }
+    section.section.homebanner.homebanner3 .absolute-center
+    {
+        top:53%;
+    }
 }
 @media(max-width:768px)
 {
