@@ -448,6 +448,24 @@
     {
         font-size: 23px;
     }
+    .banner-content
+    {
+        margin-left: 30px;
+    }
+    .counter-icon img
+    {
+        max-width: 45px;
+        min-width: 45px;
+        height: 45px;
+    }
+    .counter-detail .number
+    {
+        font-size: 43px;
+    }
+    .counter-detail .text
+    {
+        font-size: 14px;
+    }
 }
 @media(max-width:768px)
 {
