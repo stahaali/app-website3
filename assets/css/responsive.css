@@ -2168,4 +2168,8 @@
         margin-top: 43px;
         max-width: 300px;
     }
+    .ourclient-column img {
+        max-width: 120px;
+        margin-bottom: 20px;
+    }
 }
