@@ -1214,6 +1214,10 @@
         width: 100%;
         max-width: 100%;
     }
+    .right-image .mobileimg2
+    {
+        height: 460px;
+    }
 }
 @media(max-width:576px)
 {
