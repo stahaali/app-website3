@@ -519,6 +519,11 @@
     {
         max-width: 85%;
     }
+    .right-image .mobileimg2
+    {
+        top:28px;
+        height: 510px;
+    }
 }
 @media(max-width:768px)
 {
