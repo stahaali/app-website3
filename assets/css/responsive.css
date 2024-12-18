@@ -1178,6 +1178,15 @@
     {
         max-width: 100%;
     }
+    .form2
+    {
+        max-width: 85%;
+        padding: 31px 18px;
+    }
+    .form2 form h3
+    {
+        font-size: 32px;
+    }
 }
 @media(max-width:576px)
 {
