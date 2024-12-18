@@ -1158,6 +1158,10 @@
     {
         max-width: 100%;
     }
+    .mobile2img
+    {
+        max-width: 100%;
+    }
 }
 @media(max-width:576px)
 {
