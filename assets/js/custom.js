@@ -203,8 +203,8 @@ $('.speriorcontentmanagement-slider').slick({
       {
         breakpoint: 0,
         settings: {
-          slidesToShow: 4,
-          slidesToScroll: 4,
+          slidesToShow: 1,
+          slidesToScroll: 1,
           infinite: true,
           dots: true
         }
