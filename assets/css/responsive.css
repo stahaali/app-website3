@@ -470,6 +470,27 @@
     {
         font-size: 38px;
     }
+    .successstories-wrapper.successstories-secondwrapper:before
+    {
+        left: -6%;
+    }
+    section.blockchain-services:before
+    {
+        top:50%;
+        left:50%;
+    }
+    .seccolumn-bg
+    {
+        padding: 90px 55px 33px 30px;
+    }
+    .hexashape1
+    {
+        right: -30px;
+    }
+    .hexashape2
+    {
+        left: -30px;
+    }
 }
 @media(max-width:768px)
 {
