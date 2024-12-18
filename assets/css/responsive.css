@@ -239,6 +239,14 @@
     {
         font-size: 18px;
     }
+    section.homebanner
+    {
+        height: 730px;
+    }
+    .absolute-center
+    {
+        top: 54%;
+    }
     .banner-content h1 
     {
         font-size: 47px;
