@@ -466,6 +466,10 @@
     {
         font-size: 14px;
     }
+    .title 
+    {
+        font-size: 38px;
+    }
 }
 @media(max-width:768px)
 {
