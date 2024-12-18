@@ -1199,6 +1199,16 @@
     {
         font-size: 32px;
     }
+    .mobileimg7
+    {
+        width: 80%;
+        max-width: 100%;
+    }
+    .right-image .mobileimg8
+    {
+        width: 80%;
+        max-width: 100%;
+    }
 }
 @media(max-width:576px)
 {
