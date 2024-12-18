@@ -1373,7 +1373,7 @@
     }
     .banner-content h1 
     {
-        font-size: 37px;
+        font-size: 30px;
     }
     section.homebanner .banner-wrapper .absolute-center1
     {
@@ -1642,6 +1642,10 @@
     .industry-content h4 
     {
         font-size: 24px;
+    }
+    section.homebanner .banner-wrapper .banner-content p
+    {
+        font-size: 16px;
     }
     .custom-banner
     {
