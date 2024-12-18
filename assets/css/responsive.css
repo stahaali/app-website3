@@ -2218,4 +2218,9 @@
     .lightaccordion {
         margin-top: 48px;
     }
+    .mobile4img 
+    {
+        max-width: 100%;
+        margin: 40px auto 0;
+    }
 }
