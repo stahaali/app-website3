@@ -1128,6 +1128,11 @@
     {
         max-width: 300px;
     }
+    .right-image .laptop-image3
+    {
+        height: 470px;
+        top:66px;
+    }
 }
 @media(max-width:576px)
 {
