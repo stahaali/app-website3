@@ -1051,6 +1051,10 @@
     {
         margin-bottom: 30px;
     }
+    .contact-form
+    {
+        padding: 22px 20px;
+    }
 }
 @media(max-width:576px)
 {
