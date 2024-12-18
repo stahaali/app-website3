@@ -604,7 +604,7 @@
     }
     .banner-content h1 
     {
-        font-size: 41px;
+        font-size: 32px;
     }
     section.homebanner .banner-wrapper .absolute-center1 
     {
@@ -2240,5 +2240,9 @@
     {
         max-width: 100%;
         margin: 40px auto 0;
+    }
+    .right-image .mobileimg11
+    {
+        max-width: 85%;
     }
 }
