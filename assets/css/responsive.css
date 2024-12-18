@@ -2129,4 +2129,9 @@
     {
         margin-bottom: 0;
     }
+    .mobile2img
+    {
+        width: 100%;
+        margin-top:20px
+    }
 }
