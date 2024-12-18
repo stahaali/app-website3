@@ -443,6 +443,10 @@
     {
         max-width: 400px;
     }
+    .comprehensiveai-column h3
+    {
+        font-size: 23px;
+    }
 }
 @media(max-width:768px)
 {
