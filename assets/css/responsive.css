@@ -2005,4 +2005,9 @@
     {
         display: none;
     }
+    .aiapplicationdevelopment-img img 
+    {
+        max-width: 220px;
+        margin: 0 auto 20px;
+    }
 }
