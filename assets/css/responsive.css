@@ -2172,4 +2172,12 @@
         max-width: 120px;
         margin-bottom: 20px;
     }
+    .lines1
+    {
+        display: none;
+    }
+    section.black-section
+    {
+        padding-bottom:unset;
+    }
 }
