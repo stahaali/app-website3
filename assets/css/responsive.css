@@ -1133,29 +1133,9 @@
         height: 470px;
         top:66px;
     }
-    section.cms-fearures .gap1 .col-lg-4:nth-child(1) .cms-column:after
+    .cms-column:before
     {
-        border-right:none;
-    }
-    section.cms-fearures .gap1 .col-lg-4:nth-child(2) .cms-column:after
-    {
-        border-right:none;
-    }
-    section.cms-fearures .gap1 .col-lg-4:nth-child(3) .cms-column:before
-    {
-        border-right:none;
-    }
-    section.cms-fearures .gap1 .col-lg-4:nth-child(3) .cms-column:after
-    {
-        border-right:none;
-    }
-    section.cms-fearures .gap1 .col-lg-4:nth-child(6) .cms-column:before
-    {
-        border-right:none;
-    }
-    section.cms-fearures .gap1 .col-lg-4:last-child .cms-column:before
-    {
-        border-right:none;
+        border-right: none;
     }
 }
 @media(max-width:576px)
