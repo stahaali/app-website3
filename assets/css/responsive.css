@@ -1323,16 +1323,16 @@
     }
     section.homebanner
     {
-        height: 900px;
+        height: 500px;
         padding: 0px;
     }
     .absolute-center 
     {
-        top: 42%;
+        top: 50%;
     }
     section.homebanner .banner-wrapper
     {
-        height:780px;
+        height: 500px;
         border-top-left-radius: 0;
         border-top-right-radius: 0;
     }
@@ -1564,7 +1564,6 @@
     }
     .border-button
     {
-        margin-left: 28px;
         margin-top: 19px;
     }
     .requestService-section
