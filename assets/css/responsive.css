@@ -1232,6 +1232,10 @@
         height: 460px;
         top: 44px;
     }
+    .right-image .mobileimg12
+    {
+        max-width: 80%;
+    }
 }
 @media(max-width:576px)
 {
