@@ -1141,6 +1141,15 @@
     {
         border-top:none;
     }
+    .contentmanagement-column h4
+    {
+        width:100%;
+        font-size: 18px;
+    }
+    .contentmanagement-column
+    {
+        padding: 55px 14px 0;
+    }
 }
 @media(max-width:576px)
 {
