@@ -507,6 +507,18 @@
     {
         max-width: 100%;
     }
+    .crossplatform-column
+    {
+        height:auto;
+    }
+    .pt-50 
+    {
+        padding-top: 30px;
+    }
+    .mobileimg6 
+    {
+        max-width: 85%;
+    }
 }
 @media(max-width:768px)
 {
