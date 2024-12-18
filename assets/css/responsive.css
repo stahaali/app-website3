@@ -1326,6 +1326,11 @@
         height: 500px;
         padding: 0px;
     }
+    section.homebanner .banner-wrapper .absolute-center1 
+    {
+        top: 50%;
+        left: 47%;
+    }
     .absolute-center 
     {
         top: 50%;
