@@ -1230,6 +1230,7 @@
     .right-image .mobileimg2
     {
         height: 460px;
+        top: 44px;
     }
 }
 @media(max-width:576px)
