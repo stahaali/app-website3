@@ -2180,4 +2180,8 @@
     {
         padding-bottom:50px;
     }
+    .technology2-column:before
+    {
+        border-right: none;
+    }
 }
