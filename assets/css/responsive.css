@@ -1162,6 +1162,10 @@
     {
         max-width: 100%;
     }
+    .mb-20
+    {
+        margin-bottom:20px;
+    }
 }
 @media(max-width:576px)
 {
