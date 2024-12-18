@@ -2121,4 +2121,8 @@
     {
         padding: 25px 12px;
     }
+    .service-row 
+    {
+        margin-bottom: 0;
+    }
 }
