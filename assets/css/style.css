@@ -157,6 +157,10 @@ a.logo {
   display: inline-block;
   margin-right: 32px;
 }
+.desktop-menu ul li.phone a:before
+{
+  display: none;
+}
 .desktop-menu ul li:last-child {
   margin-right: 0px;
 }
