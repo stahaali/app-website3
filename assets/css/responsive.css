@@ -494,7 +494,7 @@
     }
     section.homebanner
     {
-        height:610px;
+        height: 747px;
     }
     .absolute-center
     {
@@ -510,12 +510,12 @@
     }
     .banner-content h1 
     {
-        font-size: 53px;
+        font-size: 41px;
     }
     section.homebanner .banner-wrapper .absolute-center1 
     {
         top: 51%;
-        left: 58%;
+        left: 50%;
     }
     .submit
     {
@@ -553,7 +553,7 @@
     }
     .title
     {
-        font-size: 38px;
+        font-size: 31px;
     }
     .sub-heading 
     {
@@ -1055,17 +1055,13 @@
     {
         padding: 22px 20px;
     }
-    .comprehensiveai-column
+    .contact-details h3
     {
-        padding: 17px 17px;
+        font-size: 30px;
     }
-    .comprehensiveai-column h3
+    .contact-form .contact-content h3
     {
-        font-size: 16px;
-    }
-    .comprehensiveai-column p
-    {
-        font-size: 15px;
+        font-size: 30px;
     }
 }
 @media(max-width:576px)
