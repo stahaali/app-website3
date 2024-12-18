@@ -1259,6 +1259,10 @@
         margin: 40px auto 0;
         max-width: 300px;
     }
+    .mobileservice-details 
+    {
+        margin-bottom: 45px;
+    }
     .banner-content
     {
         margin-left: 20px;
