@@ -439,6 +439,10 @@
     {
         height: 57px;
     }
+    .right-image .laptop-image2
+    {
+        max-width: 400px;
+    }
 }
 @media(max-width:768px)
 {
