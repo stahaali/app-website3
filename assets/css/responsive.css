@@ -2132,6 +2132,7 @@
     .mobile2img
     {
         width: 100%;
-        margin-top:20px
+        margin-top: 43px;
+        max-width: 300px;
     }
 }
