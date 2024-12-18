@@ -222,13 +222,6 @@ $('.speriorcontentmanagement-slider').slick({
           slidesToShow: 2,
           slidesToScroll: 2
         }
-      },
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 5,
-          slidesToScroll: 5
-        }
       }
   ]
 });
